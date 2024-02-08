@@ -95,7 +95,7 @@ while : ; do
     ############################# CONFIGURE SLICE ##############################
     # Block social media when starting FOCUS, unblock them during PAUSES.
     # This is a custom script I wrote:
-    # https://github.com/marcoplaitano/block-socialmedia
+    # https://github.com/marcoplaitano/dotfiles/blob/main/bin/block_socialmedia
     if [[ $slice == "FOCUS" ]]; then
         block_socialmedia --block &>/dev/null
     else
