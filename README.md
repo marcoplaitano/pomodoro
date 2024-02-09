@@ -14,8 +14,8 @@ separated by short breaks.
 1. Clone the repository and make the script executable:
 
 ```sh
-git clone https://github.com/marcoplaitano/pomodoro
-cd pomodoro
+git clone https://github.com/marcoplaitano/pomodoro-bash
+cd pomodoro-bash
 chmod +x pomodoro.sh
 ```
 
