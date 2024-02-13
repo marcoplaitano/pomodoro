@@ -31,7 +31,7 @@ After **3** iterations, a *Long Pause* of **20** minutes is earned.
 
 The timer can be controlled with case-**in**sensitive key presses:
 
-+ `P` to pause or resume
++ `P` to pause or resume (`SPACE` works too)
 + `N` to skip to the next slice
 + `Q` to quit the script
 

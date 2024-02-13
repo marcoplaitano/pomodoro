@@ -64,8 +64,8 @@ _read_input() {
             # N = set variable to notify the main loop to skip the current slice
             n)
                 next_slice=true ;;
-            # P = pause or resume the timer
-            p)
+            # P or SPACE = pause or resume the timer
+            p | ' ')
                 [[ $is_paused == false ]] && is_paused=true || is_paused=false ;;
         esac
     }
